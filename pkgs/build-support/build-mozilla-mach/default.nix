@@ -526,6 +526,7 @@ buildStdenv.mkDerivation {
     (enableFeature geolocationSupport "necko-wifi")
     (enableFeature gssSupport "negotiateauth")
     (enableFeature jemallocSupport "jemalloc")
+    (enableFeature jemallocSupport "replace-malloc")
     (enableFeature webrtcSupport "webrtc")
 
     (enableFeature debugBuild "debug")
